@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+   
+<head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+   
+    <!-- CSS file Included -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "https://play-lh.googleusercontent.com/EgxEhti_JC31c78CetfumW_hMUjTbrwk7cOcvYb98l_snAPitKEZsU8ACUGakFOx5w" type = "image/x-icon">
+    <style>
+        body{
+            background-color: black;
+        }   
+    </style>
+
+    <!-- JavaScript file included -->
+    <script src="javascript.js"></script>
+</head>
+   
+<body>
+    <!-- Game Instructions -->
+    <div class="t1">
+        <p id="ins">Game starts by just Tap on 
+            box<br><br>First Player starts as 
+            <b>Player X</b><br><br>Second 
+            Player as <b>Player 0</b>
+        </p>
+    </div>
+    
+    <div class="fa-fa" >
+        <a href="https://github.com/imumer12"><i class="fa fa-github" style="font-size:100px;"></i></a>
+        <a href="https://www.instagram.com/im_umerg"><i class="fa fa-instagram" style="padding-left: 30px; font-size:100px;"></i> </a>
+    </div>
+    
+    
+    <div id="main">
+   <div class="center">
+        <br><br>
+        <!-- 3*3 grid of Boxes -->
+        <input type="text" id="b1" onclick=
+            "myfunc_3(); myfunc();" readonly>
+   
+        <input type="text" id="b2" onclick=
+            "myfunc_4(); myfunc();" readonly>
+   
+        <input type="text" id="b3" onclick=
+            "myfunc_5(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="b4" onclick=
+            "myfunc_6(); myfunc();" readonly>
+               
+        <input type="text" id="b5" onclick=
+            "myfunc_7(); myfunc();" readonly>
+   
+        <input type="text" id="b6" onclick=
+            "myfunc_8(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="b7" onclick=
+            "myfunc_9(); myfunc();" readonly>
+   
+        <input type="text" id="b8" onclick=
+            "myfunc_10();myfunc();" readonly>
+   
+        <input type="text" id="b9" onclick=
+            "myfunc_11();myfunc();" readonly>
+   
+        <!-- Grid end here  -->
+        <br><br><br>
+    </div>
+
+        <div style="text-align: center;"> 
+        <!-- Button to reset game -->
+        <button id="but" onclick="myfunc_2()">
+            RESET
+        </button>
+        </div>
+
+    
+    </div>
+        <!-- Space to show player turn -->
+
+        <p id="print"></p>
+
+   
+</body>
+   
+</html>
