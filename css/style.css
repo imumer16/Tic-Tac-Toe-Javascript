@@ -45,15 +45,15 @@ b {
   color: white;
   font-size: 40px;
   position: absolute;
-  top: 10%;
-  right: 5%;
+  top: 10vh;
+  right: 5vh;
 }
 
 /* Main Container */
 #main {
   position: absolute;
-  top: 20%;
-  left: 40%;
+  top: 20vh;
+  left: 40vh;
 }
 
 /* Game Instruction Text */
@@ -66,8 +66,8 @@ b {
 
 .button-64 {
   position: absolute;
-  top: 50%;
-  left: 40%;
+  top: 50vh;
+  left: 40vh;
   align-items: center;
   background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
   border: 0;
@@ -119,13 +119,13 @@ b {
 .fa-fa {
   padding: 10px;
   position: absolute;
-  bottom: 5%;
-  right: 5%;
+  bottom: 5vh;
+  right: 5vh;
 }
 
 .t1 {
   padding: 10px;
   position: absolute;
-  top: 30%;
-  left: 8%;
+  top: 30vh;
+  left: 8vh;
 }
