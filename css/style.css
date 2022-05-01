@@ -53,7 +53,7 @@ b {
 #main {
   position: absolute;
   top: 20vh;
-  left: 40vh;
+  left: 60vh;
 }
 
 /* Game Instruction Text */
@@ -127,5 +127,5 @@ b {
   padding: 10px;
   position: absolute;
   top: 30vh;
-  left: 8vh;
+  left: 5vh;
 }
