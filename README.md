@@ -1,27 +1,59 @@
-# Hi, I'm Umer! 👋
-
-# Tic-Tac-Toe-Javascript
--> Tic Tac Toe made using HTML, CSS, Javascript
-
-## 🛠 Skills
-HTML, CSS, Javascript
-
-
-## Screenshots
-
-![image](https://user-images.githubusercontent.com/84404257/161021609-6c9656da-b0ba-4593-a121-530039db0813.png)
-<br>
-![image](https://user-images.githubusercontent.com/84404257/161021774-4caf25ab-496c-4e63-92d3-12513fecf347.png)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+# Tic-Tac-Toe
 
 
 ## Authors
 
-- [@Umer Ahmed](https://www.github.com/imumer12)
+- [@imumer16](https://www.github.com/imumer16)
 
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+
+## Run Locally
+
+Clone the project
+
+```git
+  git clone https://github.com/imumer16/Tic-Tac-Toe-Javascript.git
+```
+
+
+
+## Demo
+```link
+  https://get-your-tic-tac-toe.netlify.app/
+```
+
+
+
+## Screenshots
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/84404257/196029340-fc9bae42-37e7-461a-b2f9-46546a13563c.png">
+
+
+</div>
+
+
+
+
+
+
+## Contributing
+
+Contributions are always welcome!
+
+
+
+
+
+
+
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Support
 
