@@ -1,8 +1,43 @@
-/* CSS Code */
-/* bold */
-b {
-  color: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
 }
+
+body {
+  background-color: #2a2a2a;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+}
+
+/* Player turn space */
+#print {
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f16775;
+  font-size: 1.5rem;
+}
+
+b {
+  color: #fee36e;
+}
+
+.center-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Game-grid {
+  width: 450px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 /* 3*3 Grid */
 #b1,
 #b2,
@@ -13,16 +48,50 @@ b {
 #b7,
 #b8,
 #b9 {
-  width: 160px;
-  height: 104px;
-  margin: auto;
-  border: 2px solid #5b42f3;
-  border-radius: 12px;
+  width: 150px;
+  height: 100px;
+  border: 3px solid #373e98;
   font-size: 60px;
   text-align: center;
-  color: white;
+  color: #ceb92c;
 }
 
+#b1 {
+  border-top: none;
+  border-left: none;
+}
+
+#b2 {
+  border-top: none;
+}
+
+#b3 {
+  border-top: none;
+  border-right: none;
+}
+
+#b4 {
+  border-left: none;
+}
+
+#b6 {
+  border-right: none;
+}
+
+#b7 {
+  border-bottom: none;
+  border-left: none;
+}
+#b8 {
+  border-bottom: none;
+}
+#b9 {
+  border-bottom: none;
+  border-right: none;
+}
+input {
+  background-color: transparent;
+}
 /* Reset Button */
 #but {
   box-sizing: border-box;
@@ -39,35 +108,7 @@ b {
   cursor: pointer;
 }
 
-/* Player turn space */
-#print {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  font-size: 40px;
-  position: absolute;
-  top: 10vh;
-  right: 5vh;
-}
-
-/* Main Container */
-#main {
-  position: absolute;
-  top: 20vh;
-  left: 60vh;
-}
-
-/* Game Instruction Text */
-#ins {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-  color: purple;
-  font-size: 25px;
-}
-
-.button-64 {
-  position: absolute;
-  top: 60vh;
-  left: 75vh;
+.button {
   align-items: center;
   background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
   border: 0;
@@ -91,12 +132,12 @@ b {
   cursor: pointer;
 }
 
-.button-64:active,
-.button-64:hover {
+.button:active,
+.button:hover {
   outline: 0;
 }
 
-.button-64 span {
+.button span {
   background-color: rgb(5, 6, 45);
   padding: 16px 24px;
   border-radius: 6px;
@@ -105,27 +146,61 @@ b {
   transition: 300ms;
 }
 
-.button-64:hover span {
+.button:hover span {
   background: none;
 }
 
-@media (min-width: 768px) {
-  .button-64 {
-    font-size: 35px;
-    min-width: 300px;
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  #print {
+    font-size: 1rem;
+  }
+
+  #b1,
+  #b2,
+  #b3,
+  #b4,
+  #b5,
+  #b6,
+  #b7,
+  #b8,
+  #b9 {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+  }
+
+  .Game-grid {
+    width: 300px;
   }
 }
 
-.fa-fa {
-  padding: 10px;
-  position: absolute;
-  bottom: 5vh;
-  right: 5vh;
-}
+@media screen and (max-width: 320px) {
+  #print {
+    font-size: 0.8rem;
+  }
 
-.t1 {
-  padding: 10px;
-  position: absolute;
-  top: 30vh;
-  left: 5vh;
+  #b1,
+  #b2,
+  #b3,
+  #b4,
+  #b5,
+  #b6,
+  #b7,
+  #b8,
+  #b9 {
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+  }
+
+  .Game-grid {
+    width: 240px;
+  }
 }
